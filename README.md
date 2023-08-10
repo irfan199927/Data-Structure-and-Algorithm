@@ -8,8 +8,8 @@ This repository tracks my progress in learning Data Structures and Algorithms (D
 
 - [x] Arrays
 - [x] Linked Lists
-- [ ] Stacks
-- [ ] Queues
+- [x] Stacks
+- [x] Queues
 - [ ] Trees (Binary Trees, Binary Search Trees, AVL Trees, etc.)
 - [ ] Heaps
 - [ ] Hash Tables
@@ -58,7 +58,8 @@ Let's learn and grow together in the journey of mastering Data Structures and Al
 
 ## Contact
 
-You can reach me via email at [your.email@example.com](mailto:your.email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourusername/).
+You can reach me via email at [your.email@example.com](mailto:irfan199927@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/irfan19927/). [Twitter](https://twitter.com/hussain99927).
+
 
 ---
 
