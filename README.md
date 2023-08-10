@@ -1,4 +1,3 @@
-# Data-Structure-and-Algorithm
 # Data Structures and Algorithms Progress Tracker
 
 This repository tracks my progress in learning Data Structures and Algorithms (DSA). Here, I document the concepts I've learned, problems I've solved, and resources I've used to improve my DSA skills.
@@ -25,7 +24,7 @@ This repository tracks my progress in learning Data Structures and Algorithms (D
 
 - [x] Searching algorithms (Binary Search, Linear Search)
 - [x] Sorting algorithms (Bubble Sort, Selection Sort, Insertion Sort)
-- [x] Divide and Conquer (Merge Sort, Quick Sort)
+- [ ] Divide and Conquer (Merge Sort, Quick Sort)
 - [ ] Greedy algorithms
 - [ ] Dynamic Programming
 - [ ] Backtracking
@@ -39,7 +38,7 @@ This repository tracks my progress in learning Data Structures and Algorithms (D
 - Online course: [Course Name](course_link)
 - Books: [Book Name](book_link)
 - Websites: [Website Name](website_link)
-- Coding platforms: [Leetcode](https://leetcode.com/irfan199927/)
+- Coding platforms: [Platform Name](platform_link)
 
 ## Problem Solving
 
@@ -59,8 +58,8 @@ Let's learn and grow together in the journey of mastering Data Structures and Al
 
 ## Contact
 
-You can reach me via email at [](mailto:irfan199927@gmail.com) or connect with me on [LinkedIn](https://leetcode.com/irfan199927/).
-My twitter - https://twitter.com/hussain99927
+You can reach me via email at [your.email@example.com](mailto:your.email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourusername/).
+
 ---
 
 *Note: This README is a template to help you get started with tracking your DSA progress on GitHub. Feel free to customize it according to your learning path and preferences.*
