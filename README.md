@@ -58,7 +58,7 @@ Let's learn and grow together in the journey of mastering Data Structures and Al
 
 ## Contact
 
-You can reach me via email at [your.email@example.com](mailto:irfan199927@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/irfan19927/). [Twitter](https://twitter.com/hussain99927).
+You can reach me via email at [irfan199927@gmail.com](mailto:irfan199927@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/irfan19927/). [Twitter](https://twitter.com/hussain99927).
 
 
 ---
