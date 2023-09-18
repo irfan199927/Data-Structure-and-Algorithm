@@ -24,12 +24,12 @@ This repository tracks my progress in learning Data Structures and Algorithms (D
 
 - [x] Searching algorithms (Binary Search, Linear Search)
 - [x] Sorting algorithms (Bubble Sort, Selection Sort, Insertion Sort)
-- [ ] Divide and Conquer (Merge Sort, Quick Sort)
+- [x] Divide and Conquer (Merge Sort, Quick Sort)
 - [ ] Greedy algorithms
 - [ ] Dynamic Programming
-- [ ] Backtracking
+- [x] Backtracking
 - [ ] Graph algorithms (BFS, DFS, Dijkstra's, etc.)
-- [ ] Recursion and Memoization
+- [x] Recursion and Memoization
 - [ ] String algorithms
 - [ ] ... (add more algorithms)
 
