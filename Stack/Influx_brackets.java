@@ -1,8 +1,9 @@
 import java.util.Stack;
  
-public class Inflix{
+public class Influx_brackets {
     public static void main(String[] args) {
-        String str = "9-5+3*4/6";
+
+        String str = "9-(5+3)*4/6";
 		Stack<Integer> val = new Stack<>();
 		Stack<Character> op = new Stack<>();
         for (int i = 0; i < str.length(); i++) {
@@ -11,8 +12,20 @@ public class Inflix{
             if(ascii >=48 && ascii <= 57){
                 val.push(ascii-48);
             }
-            else if(op.empty()) op.push(ch);
- 
+            else if(op.empty() || ch == '(' || op.peek() == '(') op.push(ch);
+            
+            else if(ch == ')'){
+                while(op.peek() != '('){
+                    int val2 = val.pop();
+                    int val1 = val.pop();
+                    if(op.peek() == '+') val.push(val1+val2);
+                    if(op.peek() == '-') val.push(val1-val2);
+                    if(op.peek() == '*') val.push(val1*val2);
+                    if(op.peek() == '/') val.push(val1/val2);
+                    op.pop();
+                }
+                op.pop(); // opening bracket Pop;
+            }
             else{
                 if(ch == '+' || ch == '-'){
                     //work
