@@ -1,11 +1,9 @@
 package Stack;
-
 import java.util.Stack;
-
-public class prefx {
+public class Postfix {
     public static void main(String[] args) {
 
-        String str = "9-(8-3)*4/6";
+        String str = "9-(5+3)*4/6";
         System.out.println(str);
 		Stack<String> val = new Stack<>();
 		Stack<Character> op = new Stack<>();
@@ -25,7 +23,7 @@ public class prefx {
                     String val2 = val.pop();
                     String val1 = val.pop();
                     char o = op.pop();
-                    String t = o+val1+val2;
+                    String t = val1+val2+o;
                     val.push(t);
                 }
                 op.pop(); // opening bracket Pop;
@@ -36,14 +34,14 @@ public class prefx {
                     String val2 = val.pop();
                     String val1 = val.pop();
                     char o = op.pop();
-                    val.push(o+val1+val2);
+                    val.push(val1+val2+o);
                     op.push(ch);
                 }
                 if(op.peek() =='*' || op.peek() == '/'){
                     String val2 = val.pop();
                     String val1 = val.pop();
                     char o = op.pop();
-                    val.push(o+val1+val2);
+                    val.push(val1+val2+o);
                     op.push(ch);
                 }
                 else op.push(ch); // this is to push Multiplication or Divison 
@@ -53,7 +51,7 @@ public class prefx {
             String val2 = val.pop();
             String val1 = val.pop();
             char o = op.pop();
-            val.push(o+val1+val2);
+            val.push(val1+val2+o);
         }
         System.out.println(val.peek());
     }
