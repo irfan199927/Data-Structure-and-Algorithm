@@ -5,6 +5,7 @@ public class sumOfMinSubarrray {
         int n = arr.length;
         int[] nums = new int[n];
         Stack<Integer> st = new Stack<>();
+
         for (int i = 0; i < n; i++) {
             while (st.size() > 0 && arr[i] <= arr[st.peek()]) {
                 st.pop();
@@ -19,11 +20,12 @@ public class sumOfMinSubarrray {
         int n = arr.length;
         int[] nums = new int[n];
         Stack<Integer> st = new Stack<>();
+
         for (int i = n - 1; i >= 0; i--) {
-            while (st.size() > 0 && arr[i] <= arr[st.peek()]) {
+            while (st.size() > 0 && arr[i] < arr[st.peek()]) {
                 st.pop();
             }
-            nums[i] = st.empty() ? -1 : st.peek();
+            nums[i] = st.empty() ? n : st.peek(); // work in why N
             st.push(i);
         }
         return nums;
