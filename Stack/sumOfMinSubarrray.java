@@ -25,7 +25,7 @@ public class sumOfMinSubarrray {
             while (st.size() > 0 && arr[i] < arr[st.peek()]) {
                 st.pop();
             }
-            nums[i] = st.empty() ? n : st.peek(); // work in why N
+            nums[i] = st.empty() ? n : st.peek(); // work in why n
             st.push(i);
         }
         return nums;
@@ -48,11 +48,4 @@ public class sumOfMinSubarrray {
         }
         return (int) total;
     }
-
-    public static void main(String[] args) {
-        int[] arr = { 11,81,94,43,3 };
-        int ans = sumSubarrayMins(arr);
-        System.out.println(ans);
-    }
-
 }
