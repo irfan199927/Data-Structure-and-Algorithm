@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "Stack"
-    ]
+        "Stack",
+        "OOP"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
